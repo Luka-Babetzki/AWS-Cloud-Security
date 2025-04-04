@@ -28,7 +28,8 @@ I used tags to efficiently identify and manage AWS resources.
 - **Values:** `production`, `development`
 - **Purpose:** Differentiate environments within the project.
 
-![EC2 Instances](https://imgur.com/74OrbTi)
+![EC2 Instances](https://imgur.com/74OrbTi.png)
+
 *Ref 1: ...*
 
 ### 2. IAM Policy Creation
