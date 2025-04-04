@@ -32,6 +32,11 @@ I used tags to efficiently identify and manage AWS resources.
 
 *Ref 1: ...*
 
+![Overview](https://imgur.com/QcH1HWY.png)
+
+*Ref 2: ...*
+
+
 ### 2. IAM Policy Creation
 
 I created an IAM policy using JSON to manage access permissions:
@@ -74,28 +79,32 @@ I created an IAM policy using JSON to manage access permissions:
     ]
 }
 ```
-*Ref 2: ...*
-
-
-![[iam.png]]
 *Ref 3: ...*
+
+
+![JSON Policy](https://imgur.com/gQd9B3r.png)
+
+*Ref 4: ...*
 
 ### 3. Account Alias
 
 Created an account alias for simplified AWS Management Console access.
 
-- **New console sign-in URL:** [AWS Console Link](https://nextwork-alias-lukababetzki.signin.aws.amazon.com/console)
+- **New console sign-in URL:** https://nextwork-alias-lukababetzki.signin.aws.amazon.com/console
 
-![[alias.png]]
-*Ref 4: ...*
+![Alias](https://imgur.com/1U9oLZm.png)
+
+*Ref 5: ...*
+
 ### 4. IAM Users and User Groups
 
 - Created IAM users representing human users and applications.
 - Set up user groups for streamlined permission management.
 - Attached the policy to a user group, allowing all members to inherit the permissions.
 
-![[user.png]]
-*Ref 5: ...*
+![User Creation](https://imgur.com/8jGIIgg.png)
+
+*Ref 6: ...*
 ### 5. Testing IAM Policies
 
 #### **Production Instance Test:**
@@ -104,16 +113,18 @@ Created an account alias for simplified AWS Management Console access.
 - **Error:** "You are not authorized to perform this operation."
 - **Reason:** IAM policy restrictions.
 
-![[denied.png]]
-*Ref 6: ...*
+![Denied](https://imgur.com/fObDxhz.png)
+
+*Ref 7: ...*
 
 #### **Development Instance Test:**
 
 - **Result:** Successfully stopped
 - **Reason:** IAM policy allowed changes to development resources.
 
-![[success.png]]
-*Ref 7: ...*
+![Success](https://imgur.com/WSLVumF.png)
+
+*Ref 8: ...*
 
 
 ## Lessons Learned
