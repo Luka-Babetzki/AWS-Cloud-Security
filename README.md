@@ -18,6 +18,8 @@ The goal of this project was to implement AWS Identity and Access Management (IA
 - AWS Management Console for resource visualisation
 - JSON for defining IAM policies
 
+---
+
 ## Steps
 
 ### 1. Tagging EC2 Instances
@@ -36,6 +38,7 @@ I used tags to efficiently identify and manage AWS resources.
 
 *Ref 2: ...*
 
+---
 
 ### 2. IAM Policy Creation
 
@@ -86,6 +89,8 @@ I created an IAM policy using JSON to manage access permissions:
 
 *Ref 4: ...*
 
+---
+
 ### 3. Account Alias
 
 Created an account alias for simplified AWS Management Console access.
@@ -96,6 +101,8 @@ Created an account alias for simplified AWS Management Console access.
 
 *Ref 5: ...*
 
+---
+
 ### 4. IAM Users and User Groups
 
 - Created IAM users representing human users and applications.
@@ -105,6 +112,9 @@ Created an account alias for simplified AWS Management Console access.
 ![User Creation](https://imgur.com/8jGIIgg.png)
 
 *Ref 6: ...*
+
+---
+
 ### 5. Testing IAM Policies
 
 #### **Production Instance Test:**
@@ -126,6 +136,7 @@ Created an account alias for simplified AWS Management Console access.
 
 *Ref 8: ...*
 
+---
 
 ## Lessons Learned
 
@@ -134,9 +145,3 @@ Created an account alias for simplified AWS Management Console access.
 - Grouping users simplifies permissions management.
 - Proper tagging enhances policy effectiveness.
 - Testing policies is crucial to verify intended behaviour.
-
----
-
-### Acknowledgements
-
-Thank you to the amazing NextWork community for their guidance and support throughout this project.
