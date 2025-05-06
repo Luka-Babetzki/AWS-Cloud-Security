@@ -1,4 +1,4 @@
-# Cloud Security with AWS IAM
+# AWS Cloud Security Lab
 ## Objective
 
 The goal of this project was to implement AWS Identity and Access Management (IAM) to enhance cloud security. IAM allows for the secure control of access to AWS resources by managing authentication and authorisation within an AWS account.
